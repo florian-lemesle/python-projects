@@ -32,7 +32,7 @@ def translate_char(mot):
 
 # je choisis un mot au hasard dans mon dictionnaire et je crée les variables dont j'ai besoin
 
-solution = random.choice(open('dico_france.txt').read().split()).strip()
+solution = random.choice(open('dico_france.txt', encoding="ISO-8859-1").read().split()).strip()
 niveau = input("Choisissez le niveau de difficulté: ")
 lettres_trouvees = ""
 listlettres = []
