@@ -108,7 +108,15 @@ while win == 0:
 
 """"
 
-Pour la seconde partie de l'exercice j'ai testé deux début de solutions mais je n'ai pas eu le temps d'aller plus loin...
+Pour la seconde partie de l'exercice j'ai testé deux "début" de solutions mais je n'ai pas eu le temps d'aller plus 
+loin... 
+
+il faut trouver un moyen pour lire le texte, qu'on va découper en mots et le mettre en mémoire sous forme de liste, 
+vérifier que la variable qui contient le nom du joueur n'est pas égale à l'un des objets de la liste, sinon on l'ajoute
+ et crée son score, sinon on doit sortir le char score associé au joueur, le transformer en int, 
+l'incrémenter de 1, le repasser en char et écraser l'ancien score avec le score mis à jour. Ce n'est pas vraiment ce 
+que j'ai fais avec mes début de solution mais passons. 
+
 
         with open('score.csv', 'a', newline='') as csvfile:
             titres = ['Joueur', 'Score']
